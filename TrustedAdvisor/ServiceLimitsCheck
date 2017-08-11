@@ -1,0 +1,1 @@
+aws support describe-trusted-advisor-check-result --language en --check-id eW7HH0l7J9 --query 'result.sort_by(flaggedResources[],&metadata[0])[].metadata' --output table
